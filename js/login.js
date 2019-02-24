@@ -15,8 +15,8 @@ const documentReady = () => {
 }
 
 const requestLogin = () => {
-    var user = $('#user').val()
-    var password = $('#password').val()
+    var user = document.querySelector('#user').textContent
+    var password = document.querySelector('#password').textContent
     UserService.login(user,password)
 
 }
