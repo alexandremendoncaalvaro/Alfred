@@ -1,8 +1,8 @@
 # Alfred
-Internal use SQL Editor tool with a full animated interface (Original draws, animation, etc).
+Internal use SQL Editor tool with a fully animated interface (Original draws, animation, etc).
 It's validates the SQL scripts (backend not included here).
 
-The git sharing purpose is to show my originals frontend animations with SVGs.
+The git publishing purpose is to sharing my original frontend animations with SVGs.
 
 You can use any username a password to access. (pay attention to Batman's look when you type).
 
