@@ -27,5 +27,5 @@ moon
 ...and see the magic!
 
 Authors:  
-Alexandre Mendonça Alvaro (Frontend)
+Alexandre Mendonça Alvaro (Frontend)  
 William da Silva (Some Frontend and Backend)
