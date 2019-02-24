@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="sky" x="0px" y="0px" enable-background="new 0 0 1920 400" version="1.1" viewBox="0 0 1920 400" xml:space="preserve">
+    <g id="atmosfere">
+        <linearGradient id="sky_bg_1_" x1="960" x2="960" y1="-676" y2="-265.128" gradientTransform="matrix(1 0 0 -1 0 -276)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" style="stop-color:#5C99F5"/>
+            <stop offset="0.1318" style="stop-color:#5892ED"/>
+            <stop offset="0.3371" style="stop-color:#4D7FD7"/>
+            <stop offset="0.589" style="stop-color:#3B60B3"/>
+            <stop offset="0.7054" style="stop-color:#3250A0"/>
+            <stop offset="0.7486" style="stop-color:#2D488F"/>
+            <stop offset="0.857" style="stop-color:#23356A"/>
+            <stop offset="0.9447" style="stop-color:#1C2A53"/>
+            <stop offset="1" style="stop-color:#1A264B"/>
+        </linearGradient>
+        <rect id="sky_bg" width="1920" height="400" fill="url(#sky_bg_1_)"/>
+    </g>
+    <g id="fog">
+        <linearGradient id="fog_x5F_bg_1_" x1="960" x2="960" y1="2160.4971" y2="1970.4971" gradientTransform="matrix(1 0 0 1 0 -1760.4971)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" style="stop-color:#FFFFFF;stop-opacity:0.5"/>
+            <stop offset="0.5" style="stop-color:#FFFFFF;stop-opacity:0"/>
+        </linearGradient>
+        <rect id="fog_x5F_bg" width="1920" height="190" y="210" fill="url(#fog_x5F_bg_1_)"/>
+    </g>
+</svg>

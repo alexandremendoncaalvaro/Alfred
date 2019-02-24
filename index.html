@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alfred Pennyworth</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.40.0/codemirror.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.40.0/theme/blackboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.40.0/addon/hint/show-hint.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/sql-editor.css">
+    <link rel="stylesheet" type="text/css" href="css/hints.css">
+    <link rel="stylesheet" type="text/css" href="css/result-table.css">
+    <link rel="stylesheet" type="text/css" href="css/alfred-style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    
+</head>
+
+<body>
+    <div class="mobile-responsive centered-things">
+        <div>
+            <h1>Santa responsividade Bátima!</h1>
+            <img id="bataflec" src="img/bataflec.png">
+            <p>A resolução precisa ser maior que 1200x590px</p>
+        </div>
+    </div>
+    <div class="general-content">
+        <span svg-batsignal></span>
+        <div id="skySvgPlace" class="fullSize">
+            <span svg-moon></span>
+            <div id='starsPlace'></div>
+            <div class='star'></div>
+            <span svg-sky></span>
+        </div>
+        <div id="gothamSvgPlace" class="fullSize">
+            <span svg-gotham></span>
+            <span svg-gotham-2></span>
+        </div>
+        <span svg-batjet></span>
+        <div class="row">
+            <div class="left-column"></div>
+            <div class="right-column"></div>
+            <div class="centered-things">
+                <div id="sqlEditorPlace" class="box-shadow workbench-div">
+                    <div class="editorItens">
+                        <div class="box-inner-shadow" id="textAreaDiv">
+                            <textarea id="text"></textarea>
+                        </div>
+                        <div class="box-inner-shadow CodeMirror" id="parametersDiv">
+                            <div id="parameters"></div>
+                        </div>
+                    </div>
+                    <div class="box-inner-shadow resultTable" id="resultTableDiv">
+                        <table id="resultTable">
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="alfredSvgPlace">
+            <span svg-alfred></span>
+        </div>
+        <div id="jokerSvgPlace">
+            <span svg-joker></span>
+        </div>
+        <span svg-joker-laugh></span>
+        <p id="dev-mode-on-text">start animations off</p>
+        <nav id="buttons-menu">
+            <i id="pin-menu" class="fas fa-thumbtack"></i>
+            <ul>
+                <li id="menu-icon"><span svg-bat-symbol-ico></span></li>
+                <li run-logout><span>Logout</span></li>
+                <li run-log><span>History</span></li>
+                <li run-export><span>Export</span></li>
+                <li run-save><span>Save</span></li>
+                <li run-execute><span>Execute</span></li>
+            </ul>
+        </nav>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.40.0/codemirror.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.40.0/mode/sql/sql.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.40.0/addon/hint/show-hint.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.40.0/addon/hint/sql-hint.js"></script>
+
+    <script src="js/animation/index.js"></script>
+    <script src="js/animation/characters.js"></script>
+    <script src="js/animation/gotham.js"></script>
+    <script src="js/animation/environment.js"></script>
+    
+    <script src="js/cookies.js"></script>
+    <script src="js/rest/rest.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <script src="js/queries/autoComplete.js"></script>
+    <script src="js/queries/query.js"></script>
+    <script src="js/queries/executeQuery.js"></script>
+
+    <script src="js/excel/excelExporter.js"></script>
+
+    <script src="js/parameters.js"></script>
+
+    <script src="js/resultTable.js"></script>
+</body>
+
+</html>

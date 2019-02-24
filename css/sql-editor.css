@@ -1,0 +1,54 @@
+.CodeMirror {
+    height: 400px;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 1rem;
+}
+
+#parametersDiv {
+    width: 30%;
+    display: none;
+    z-index: 990;
+    padding: 10px;
+    overflow: auto;
+}
+
+.parameters {
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 25px;
+}
+
+.parameter {
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: left;
+    color: whitesmoke;
+    text-shadow: 0 0 6px cyan;
+    height: 30px;
+    padding: 3px;
+}
+
+.parameter > *{
+    width: 50%;
+    vertical-align: -webkit-baseline-middle;
+}
+
+.parameter input {
+    height: 100%;
+    text-align: center;
+    float: right;
+    background-color: rgb(175, 182, 202);
+    border: solid 3px black;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #353538;
+    font-weight: 400;
+    transition: border-color .25s ease-out;
+}
+.parameter input:focus {
+    outline: none;
+    border: solid 2px #fdbe31;
+}
