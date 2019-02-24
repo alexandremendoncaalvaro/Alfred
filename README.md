@@ -4,6 +4,9 @@ It's validates the SQL scripts (backend not included here).
 
 The git publishing purpose is to sharing my original frontend animations with SVGs.
 
+Demo:  
+<https://alexandremendoncaalvaro.github.io/Alfred>
+
 You can use any username a password to access. (pay attention to Batman's look when you type).
 
 Click around Alfred's body, arms, legs and face...
