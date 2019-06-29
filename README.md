@@ -1,17 +1,20 @@
-# Alfred
-Internal use SQL Editor tool with a fully animated interface (original draws, animation, etc).
-It's validates the SQL scripts (backend not included here).
+# Alfred (original draws and animations)
+Internal use (our company team) SQL Editor tool with a fully animated interface.
+This validates the SQL scripts to avoid mistakes when interact direct in homologation database (for obvious reasons, some functions and backend are not included here).
 
-The git publishing purpose is to sharing my original frontend animations with SVGs.
+*Except the first batman (that we downloaded) all characters are original drawn in Illustrator, and animation with Greensock JS lib.
 
 Demo:  
 <https://alexandremendoncaalvaro.github.io/Alfred>
 
-You can use any username a password to access. (pay attention to Batman when you type).
+![](alfred_demo.gif)
+
+## How to play
+You can use any username a password to access. (pay attention to Batman's reactions when you type).
 
 Click around Alfred's body, arms, legs and face...
 
-Resize the window...
+Resize the window (to a really small width)...
 
 Try to type real SQL commands in the editor:
 ```
