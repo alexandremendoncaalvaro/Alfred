@@ -295,7 +295,7 @@ const NavMenu = (() => {
 
         if(buttonLog){
             buttonLog.addEventListener("click", () => {
-                window.location.href = '\history.html'
+                window.location.href = '\index.html'
             })
         }
 

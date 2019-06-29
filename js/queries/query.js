@@ -149,7 +149,7 @@ const Query = (() => {
 
     const queryInsertValida = query => {
         query = query.toUpperCase()
-        const result = validateOrderInString(["INSERT ", "INTO ", "VALUES","(",")"], query)
+        const result = validateOrderInString(["INSERT ", "INTO ", "VALUES "], query)
         return result
     }
 

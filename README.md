@@ -13,7 +13,20 @@ Click around Alfred's body, arms, legs and face...
 
 Resize the window...
 
-Try to type real SQL commands in the editor, or things like:
+Try to type real SQL commands in the editor:
+```
+SELECT * FROM test
+```
+```
+INSERT INTO table_name VALUES (value_1, value_2)
+```
+```
+UPDATE table_name SET column_name = 'new_value' WHERE column_name = 'old_value'
+```
+```
+DELETE FROM table_name WHERE (condition)
+```
+or things like:
 ```
 batman
 ```
