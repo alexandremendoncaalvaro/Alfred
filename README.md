@@ -26,6 +26,7 @@ moon
 
 ...and see the magic!
 
-Authors:  
-Alexandre Mendonça Alvaro (Frontend)  
-William da Silva (Some Frontend and Backend)
+## Contributors
+
+| [<img src="https://avatars3.githubusercontent.com/u/41878170?s=115&v=4"><br><sub>@alexandremendoncaalvaro</sub>](https://github.com/alexandremendoncaalvaro) | [<img src="https://avatars2.githubusercontent.com/u/19838793?s=115&v=4"><br><sub>@Wyulliam</sub>](https://github.com/Wyulliam) |
+| :---: | :---: |
