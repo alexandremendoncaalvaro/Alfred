@@ -4,7 +4,7 @@ This validates the SQL scripts to avoid mistakes when interact direct in homolog
 
 *Except the first batman (that we downloaded) all characters are original drawn in Illustrator, and animation with Greensock JS lib.
 
-Demo:  
+Live demo:  
 <https://alexandremendoncaalvaro.github.io/Alfred>
 
 ![](alfred_demo.gif)
