@@ -2,7 +2,7 @@
 Internal use (our company team) SQL Editor tool with a fully animated interface.
 This validates the SQL scripts to avoid mistakes when interact direct in homologation database (for obvious reasons, some functions and backend are not included here).
 
-*Except the first batman (that we downloaded) all characters are original drawn in Illustrator, and animation with Greensock JS lib.
+*Except the first batman (that we downloaded) all characters are originally drawn in Illustrator, and animation with Greensock JS lib.
 
 Live demo:  
 <https://alexandremendoncaalvaro.github.io/Alfred>
